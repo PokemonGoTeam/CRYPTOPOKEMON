@@ -1,3 +1,4 @@
+![Image](https://i.imgur.com/9oNuZdi.png)
 # CRYPTOPOKEMON
 ## A simple cryptolocker that uses the Blowfish algorithm to encrypt disk files.
 To search for files using std::filesystem (C++ 17)
