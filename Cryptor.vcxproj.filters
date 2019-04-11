@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="./src/MainLocker.cpp" />
+    <ClCompile Include="./src/Cryptor/BlowFish.cpp">
+      <Filter>Cryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/Cryptor/Cryptor.cpp">
+      <Filter>Cryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/Lib/FileMan.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/Lib/HttpRequest.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/Lib/ManchineID.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/Lib/TextUtils.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="./src/Cryptor/Blowfish.h">
+      <Filter>Cryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Cryptor/CryptExt.h">
+      <Filter>Cryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Cryptor/Cryptor.h">
+      <Filter>Cryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/FileMan.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/HttpRequest.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/ManchineID.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/prog_defines.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/queue.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/Lib/TextUtils.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cryptor">
+      <UniqueIdentifier>{0d630fe4-0122-4918-bc23-ed5ca4859ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{6cad9a4f-58cb-4d7d-ab94-25a04274b62d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
